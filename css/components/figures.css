@@ -1,0 +1,9 @@
+.kvadratas {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 40px;
+    border: 10px solid #ccc;
+
+
+}
