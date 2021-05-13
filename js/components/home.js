@@ -6,6 +6,11 @@ import { skirtumas } from './components/algebra/skirtumas.js';
 import { suma } from './components/algebra/suma.js';
 import { vidurkis } from './components/algebra/vidurkis.js';
 
+import { pirmaRaide } from './tekstas/pirmaRaide.js';
+import { vidurineRaide } from './tekstas/vidurineRaide.js';
+import { paskutineRaide } from './tekstas/paskutineRaide.js';
+import { vientisasTekstas } from './tekstas/vientisasTekstas.js';
+
 // EXECUTION
 
 const a = suma(8, 5);
