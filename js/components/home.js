@@ -6,10 +6,7 @@ import { skirtumas } from './components/algebra/skirtumas.js';
 import { suma } from './components/algebra/suma.js';
 import { vidurkis } from './components/algebra/vidurkis.js';
 
-import { pirmaRaide } from './tekstas/pirmaRaide.js';
-import { vidurineRaide } from './tekstas/vidurineRaide.js';
-import { paskutineRaide } from './tekstas/paskutineRaide.js';
-import { vientisasTekstas } from './tekstas/vientisasTekstas.js';
+import { vientisasTekstas } from './components/tekstas/vientisasTekstas.js';
 
 // EXECUTION
 
@@ -41,3 +38,9 @@ console.log(s2, '->', 'maonmsyragts');
 
 const s3 = vientisasTekstas(['as', 'i', 'ten']);
 console.log(s3, '->', 'aasiiiten');
+
+const s4 = vientisasTekstas(['']);
+console.log(s4, '->', '');
+
+const s5 = vientisasTekstas(['x']);
+console.log(s5, '->', 'xxx');

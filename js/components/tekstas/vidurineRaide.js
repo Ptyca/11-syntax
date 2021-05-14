@@ -1,9 +1,19 @@
+/**
+ * 
+ * @param {string} text Tekstas is kurio rasim vidurine raide
+ * @returns 
+ */
+ const vidurineRaide = text => text === '' ? '' : text[Math.ceil(text.length / 2 - 1)];
 
-function vidurineRaide(text) {
-
-    const index = Math.ceil(text.length/ 2 - 1); 
-
-    return text[index];
-}
-
-export { vidurineRaide }
+ export { vidurineRaide }
+ 
+ 
+ /*
+ 
+ labas -> b (index: 2)
+ ^(5/2-1) -> 2
+ 
+ mano -> a (index: 1)
+ ^(4/2-1) -> 1
+ 
+ */
